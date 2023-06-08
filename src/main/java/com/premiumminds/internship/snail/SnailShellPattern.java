@@ -7,13 +7,17 @@ import java.util.concurrent.Future;
  */
 class SnailShellPattern implements ISnailShellPattern {
 
-  /**
-   * Method to get snailshell pattern
-   * 
-   * @param matrix matrix of numbers to go through
-   * @return order array of values thar represent a snail shell pattern
-   */
+  
   public Future<int[]> getSnailShell(int[][] matrix) {
+
+    int rows = matrix.length;
+    int columns = matrix[0].length;
+    
+
     throw new RuntimeException("Not Implemented Yet");
   };
+
+  public static void main(String[] args) {
+    System.out.println("ola");
+  }
 }
